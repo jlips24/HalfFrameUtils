@@ -25,7 +25,7 @@ export_folder_path = args.output
 def get_filenames():
     files = []
     for file in os.listdir(import_folder_path):
-        if file.endswith(".jpg"):
+        if file.endswith(".jpg") or file.endswith(".JPG"):
             files.append(file)
     return(files)
 
