@@ -29,6 +29,16 @@ Limitations:
 
 `pip install -r requirements.txt`
 
+### Desktop GUI
+
+Launch the graphical interface:
+
+`python HalfFrameUtilsGUI.py`
+
+Choose an input folder and output folder, select one or both processing operations, and click **Process images**.
+
+Prebuilt desktop applications are produced through GitHub Actions. Maintainers can find the build, testing, and version-tag release process in [the release guide](docs/RELEASING.md).
+
 
 ### Usage
 The general usage for this tool is as follows:
